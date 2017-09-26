@@ -2,12 +2,16 @@
 
 [![API](https://img.shields.io/badge/API-11%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=11) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Gravity%20View-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/5477)
 
-GravityView is an Android adaptation of Facebook instant articles. The concept behind the library is to utilize the motion sensors of an Android device and allow the end user to explore the product by rotating his device. It uses gyroscope motion sensor readings to scroll the image.
+Gravity View is an Android adaptation of Facebook instant articles. The concept behind the library is to utilize the motion sensors of an Android device and allow the end user to explore the product by rotating his device. It uses gyroscope motion sensor readings to scroll the image.
 
-You can read more about GravityView article [here](https://blog.gofynd.com/introducing-gravity-because-swiping-is-so-yesterday-4aebd89f0e21)
+You can read more about Gravity View article [here](https://blog.gofynd.com/introducing-gravity-because-swiping-is-so-yesterday-4aebd89f0e21)
 
 
 [![Gravity View video](http://img.youtube.com/vi/IrNr-J1s8f8/0.jpg)](http://www.youtube.com/watch?v=IrNr-J1s8f8)
+
+## Demo
+
+Install [Demo](https://github.com/gofynd/gravity-view/releases/download/v1.0/gravityview-1.0.apk) app or APK from [Releases](https://github.com/gofynd/gravity-view/releases) on your device and experience the gravity view.
 
 ### Requirements
   - Android 3.0 or higher
@@ -16,9 +20,6 @@ You can read more about GravityView article [here](https://blog.gofynd.com/intro
 ### Gradle dependency
 
 ```
-maven {
-   url 'https://dl.bintray.com/fynd/maven/'
-   }
 dependencies {
     compile 'co.gofynd.library:gravity-view:1.0'
 }
@@ -74,9 +75,14 @@ dependencies {
 boolean is_supported = gravityView.deviceSupported();
 ```
 
+## Roadmap
+
+- Multiple image support
+- Support for Non-Gyroscope devices using Accelerometer sensor
+
 ## Contributions
 
-Any contributions are welcome!  
+Any contributions are welcome!
 Please check the [contributing guideline](https://github.com/gofynd/gravity-view/blob/master/CONTRIBUTING.md) before submitting a new issue.
 
 
